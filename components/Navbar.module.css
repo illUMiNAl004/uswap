@@ -1,0 +1,57 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #8b1919;
+    color: white;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .searchBar {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    width: 40%;
+  }
+  
+  .searchBar input {
+    border: none;
+    margin-left: 0.5rem;
+    width: 100%;
+    outline: none;
+    color: rgb(255, 255, 255);
+  }
+
+  .searchBar input::placeholder {
+    color: rgb(255, 255, 255);
+  }
+
+  .searchBar input::selection {
+    background-color: #e6e6e6;
+  }
+  
+  .actions button {
+    margin-left: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .login {
+    background-color: transparent;
+    border: 1px solid white !important;
+    color: white;
+  }
+  
+  .buyer {
+    background-color: white;
+    color: #8b1919;
+  }

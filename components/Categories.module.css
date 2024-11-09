@@ -1,0 +1,25 @@
+.categories {
+    padding: 2rem;
+    background-color: #f5f5f5;
+  }
+  
+  .categoryTags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .categoryTag {
+    padding: 0.5rem 1rem;
+    background-color: #8b1919;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.9rem;
+  }
+  
+  .categoryTag:hover {
+    background-color: #4a0404;
+  }
