@@ -1,57 +1,67 @@
+/*fixed*/
+
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 2rem;
-    background-color: #8b1919;
-    color: white;
-  }
-  
-  .logo {
-    font-size: 1.5rem;
-    font-weight: bold;
-  }
-  
-  .searchBar {
-    display: flex;
-    align-items: center;
-    background-color: white;
-    padding: 0.5rem 1rem;
-    border-radius: 4px;
-    width: 40%;
-  }
-  
-  .searchBar input {
-    border: none;
-    margin-left: 0.5rem;
-    width: 100%;
-    outline: none;
-    color: rgb(255, 255, 255);
-  }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #8b1919;
+  color: white;
+}
 
-  .searchBar input::placeholder {
-    color: rgb(255, 255, 255);
-  }
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
 
-  .searchBar input::selection {
-    background-color: #e6e6e6;
-  }
-  
-  .actions button {
-    margin-left: 1rem;
-    padding: 0.5rem 1rem;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  .login {
-    background-color: transparent;
-    border: 1px solid white !important;
-    color: white;
-  }
-  
-  .buyer {
-    background-color: white;
-    color: #8b1919;
-  }
+.searchBar { /* fixed the black rectangle */
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  width: 40%;
+  box-sizing: border-box; /* Ensure padding doesn't affect width */
+}
+
+.searchBar input {
+  border: none;
+  margin-left: 0.5rem;
+  width: 100%;
+  outline: none;
+  color: #333; /* Dark text for readability */
+  background-color: white; /* Ensure white background when nothing is selected */
+}
+
+.searchBar input::placeholder {
+  color: #aaa; /* Lighter placeholder color */
+}
+
+.searchBar input::selection {
+  background-color: #0070f3; /* Highlight color when text is selected */
+  color: white; /* Text color when selected */
+}
+
+.searchBar input:focus {
+  border: 2px solid #0070f3; /* Border color when focused */
+  background-color: #f0f8ff; /* Light background on focus */
+}
+
+.actions button {
+  margin-left: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login {
+  background-color: transparent;
+  border: 1px solid white !important;
+  color: white;
+}
+
+.seller {
+  background-color: white;
+  color: #8b1919;
+}

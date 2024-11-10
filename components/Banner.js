@@ -7,9 +7,9 @@ export function Banner() {
   const [currentSlide, setCurrentSlide] = useState(0);
   const banners = [
     {
-      image: './images/store.jpg',  // Using placeholder image for now
-      title: 'UMass Store',
-      description: 'Find what you love, love what you find'
+      image: './images/banner.jpeg',  // fixed
+      title: 'UMass Store Promotion Banner',
+      description: 'Find what you love, love what you find!'
     },
   ];
 

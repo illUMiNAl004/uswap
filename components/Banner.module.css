@@ -30,9 +30,18 @@
     position: absolute;
     bottom: 2rem;
     left: 2rem;
-    color: rgb(0, 0, 0);
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: #8b1919; /* Specific red color for the title */
+    font-size: 2rem; /* Title size */
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Optional shadow for title */
   }
+  
+  .textOverlay p {
+    font-size: 1rem; /* Smaller font size for the description */
+    color: black; /* Set text color to black */
+    font-weight: normal; /* No bold effect for the description */
+    text-shadow: none; /* No shadow or outline for the description */
+  }  
   
   .arrowBtn {
     position: absolute;

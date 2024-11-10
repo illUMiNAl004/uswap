@@ -12,7 +12,7 @@ export function Navbar() {
       </div>
       <div className={styles.actions}>
         <button className={styles.login}>Login</button>
-        <button className={styles.buyer}>Buyer</button>
+        <button className={styles.seller}>Toggle Seller</button>
       </div>
     </nav>
   );
