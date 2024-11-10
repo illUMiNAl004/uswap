@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# USwap: UMass Resource Sharing Hub
+**Empowering Students, Fostering Sustainability**
 
-## Getting Started
+USwap is a cutting-edge platform designed to revolutionize resource sharing among UMass students. By facilitating the borrowing, sharing, and selling of essential items, USwap aims to create a more sustainable, cost-effective, and connected campus community.
 
-First, run the development server:
+## Key Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Verified Student Marketplace:** Secure, UMass-exclusive environment.
+- **Multi-Modal Sharing:** Borrow, lend, or sell items seamlessly.
+- **Sustainability Focus:** Reduce waste and promote reuse.
+- **Intuitive UI:** User-friendly interface built with Material UI.
+- **Secure Transactions:** Integrated Stripe payments.
+- **Community Building:** In-app messaging and review system.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tech Stack
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **Frontend:** Next.js, Material UI
+- **Backend:** Node.js
+- **Authentication:** Firebase with Google Auth
+- **Database:** Firebase
+- **Payments:** Stripe
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Why USwap?
 
-## Learn More
+USwap addresses the recurring needs of students for temporary-use items, from textbooks to furniture, by tapping into the collective resources of the student body. This innovative approach not only reduces costs and waste but also fosters a collaborative campus ecosystem.
 
-To learn more about Next.js, take a look at the following resources:
+### Impact
+- **Economic:** Significant cost savings for students.
+- **Environmental:** Aligns with UMass's sustainability goals.
+- **Social:** Strengthens campus community and connections.
+- **Educational:** Enhances resource accessibility for all students.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Vision
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+USwap is more than an app—it's a movement towards a more resourceful, connected, and environmentally conscious campus. By reimagining how students access and share resources, we're laying the groundwork for a more sustainable and collaborative future in higher education.
 
-## Deploy on Vercel
+## Get Involved
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+We're seeking passionate developers, designers, and sustainability advocates to join our mission. If you're excited about creating impactful solutions for student communities, we'd love to hear from you!
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+### USwap: Share More, Waste Less, Connect Better
