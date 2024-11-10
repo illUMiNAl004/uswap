@@ -18,12 +18,14 @@
     width: 100%;
     height: 100%;
     position: relative;
+    padding: 20px;
   }
   
   .bannerImage img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-fit: center;
   }
   
   .textOverlay {
@@ -37,8 +39,9 @@
   }
   
   .textOverlay p {
-    font-size: 1rem; /* Smaller font size for the description */
+    font-size: 1.5rem; /* Smaller font size for the description */
     color: black; /* Set text color to black */
+    padding-top: 1.5%;
     font-weight: normal; /* No bold effect for the description */
     text-shadow: none; /* No shadow or outline for the description */
   }  
