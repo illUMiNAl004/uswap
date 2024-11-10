@@ -40,4 +40,4 @@ We're seeking passionate developers, designers, and sustainability advocates to 
 
 ---
 
-### USwap: Share More, Waste Less, Connect Better
+### USwap: Share More, Waste Less, Connect Better, One U-Swap at a time!
